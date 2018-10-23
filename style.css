@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/04/19/76650/ae5b4c340228987becf5c5282fecdffb.jpg");
+  background-position: center;
+  background-size: cover;
+  text-shadow: 1px 1px 2px black;
+  color: #FFFFFF;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#title {
+  font-size: 38px;
+  margin-top: 10px;
+  grid-column: span 2;
+  font-family: 'Kirang Haerang', cursive;
+  color: #9E8F69;
+
+}
+
+#navbar {
+  font-family: 'Londrina Outline', cursive;
+  font-style: oblique;
+  grid-column-gap: 10px;
+  font-size: 30px;
+  display: grid;
+  text-align: left;
+  grid-template-columns: 70vw 10vw 10vw 10vw;
+  grid-template-rows: 60px;
+  background-color: #6A6D70;
+  opacity: 0.9;
+}
+
+.navcell{
+  padding: 10px;
+}
+
+.navcell:hover{
+  background-color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.button{
+  background-color: #60706B;
+  opacity: 0.8;
+}
+
+.button:hover{
+  background-color: #4E5C57;
+  opacity: 0.8;
+}
+
+#browse{
+  height: 100px;
+  padding: 50px;
+}
+#browse:hover{
+  background-color: #4E5C57;
+  opacity: 0.8;
+}
+
+#imagePic{
+  padding: 50px;
+}
+
+#count {
+  font-size: 20px;
+  grid-column: span 2;
+}
+
+#empty {
+  grid-column: span 2;
+}
